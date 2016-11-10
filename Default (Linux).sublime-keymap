@@ -1,0 +1,5 @@
+[
+    { 
+        "keys": ["ctrl+shift+\\"], "command": "indent_to_split"
+    }
+]
