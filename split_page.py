@@ -7,7 +7,7 @@ class IndentToSplitCommand(sublime_plugin.TextCommand):
 
     def run(self, edit):
         for region in self.view.sel():
-            text = self.view.find("[^\s]", region.begin())
+            text = self.view.find("[^\s]|$", region.begin())
             begin_row, col = self.view.rowcol(text.begin())
             end_row, _ = self.view.rowcol(region.end())
 
