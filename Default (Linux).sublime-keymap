@@ -1,5 +1,10 @@
 [
     { 
-        "keys": ["ctrl+\\"], "command": "indent_to_split"
+        "keys": ["ctrl+\\"], 
+        "command": "indent_to_split"
+    },
+    {
+        "keys": ["ctrl+shift+\\"], 
+        "command": "set_split_at_cursor"
     }
 ]
